@@ -1,0 +1,49 @@
+@media(min-width: 768px){
+    .head-comics {
+        min-height: 50vh;
+        background-image: url(../img/thor.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+    }
+}
+
+@media(max-width: 767px){
+    .head-comics {
+        min-height: 25vh;
+        background-image: url(../img/thor.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+        background-attachment: fixed;
+    }
+}
+
+@media(min-width: 768px){
+    .footer-comics {
+        min-height: 30vh;
+        background-image: url(../img/thor.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 767px){
+    .footer-comics {
+        min-height: 15vh;
+        background-image: url(../img/thor.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,191 @@
+/* ALL PAGE */
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.font-marvel { 
+    font-family: Marvel;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.image {
+    border: 5px solid black;
+}
+
+@media(min-width: 768px){
+    text {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 767px){
+    text {
+        font-size: 20px;
+    }
+}
+
+text {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* HEADER */
+@media(min-width: 768px){
+    .logo {
+        width: 100px;
+        height: 60px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 767px){
+    .logo {
+        width: 100px;
+        height: 60px;
+        margin-top: 10px;
+    }
+}
+
+@media(min-width: 768px){
+    .head-home {
+        min-height: 50vh;
+        background-image: url(../img/iron-man.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+    }
+}
+
+@media(max-width: 767px){
+    .head-home {
+        min-height: 25vh;
+        background-image: url(../img/iron-man.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+        background-attachment: fixed;
+    }
+}
+
+@media(min-width: 768px){
+    .links {
+        display: flex;
+        padding: 10px;
+        gap: 30px;
+    }
+    
+    .link {
+        background-color: rgb(0, 0, 0, 0.3);
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+        font-size: 50px;
+    }
+    
+    .link:hover {
+        color: black;
+        transition: all 0.2s;
+    }
+}
+
+@media(max-width: 767px){
+    .links {
+        display: grid;
+        padding: 3px;
+        gap: 5px;
+    }
+    
+    .link {
+        background-color: rgb(0, 0, 0, 0.3);
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+        margin-right: auto;
+        font-size: 30px;
+    }
+    
+    .link:hover {
+        color: black;
+        transition: all 0.2s;
+    }
+}
+
+
+/* MAIN */
+.bg-comics-black {
+    background-image: url(../img/marvel-black-bg.png);
+    background-size: cover;
+}
+
+.bg-comics-white {
+    background-image: url(../img/marvel-white-bg.png);
+    background-size: contain;
+}
+
+.h1-main {
+    font-size: 70px;
+}
+
+.p-main {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+
+/* FOOTER */
+@media(min-width: 768px){
+    .footer-box {
+        min-height: 30vh;
+        background-image: url(../img/iron-man.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 767px){
+    .footer-box {
+        min-height: 15vh;
+        background-image: url(../img/iron-man.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.link-footer-black {
+    text-decoration: none;
+    color: black;
+    padding: 0px 5px 0px 5px;
+}
+
+.link-footer-white {
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px 0px 5px;
+}
+
+.zoom-footer {
+    transition: transform .2s;
+}
+
+.zoom-footer:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: red;
+}

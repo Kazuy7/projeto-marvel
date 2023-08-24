@@ -1,0 +1,49 @@
+@media(min-width: 768px){
+    .head-series {
+        min-height: 50vh;
+        background-image: url(../img/thanos.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+    }
+}
+
+@media(max-width: 767px){
+    .head-series {
+        min-height: 25vh;
+        background-image: url(../img/thanos.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+        background-attachment: fixed;
+    }
+}
+
+@media(min-width: 768px){
+    .footer-series {
+        min-height: 30vh;
+        background-image: url(../img/thanos.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 767px){
+    .footer-series {
+        min-height: 15vh;
+        background-image: url(../img/thanos.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
