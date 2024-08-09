@@ -1,4 +1,8 @@
 /* ALL PAGE */
+main {
+    min-height: 35vh;
+}
+
 .row {
     margin: 0;
     padding: 0;
