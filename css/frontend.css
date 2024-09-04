@@ -30,6 +30,10 @@ main {
     text {
         font-size: 20px;
     }
+
+    main {
+        min-height: 60vh;
+    }
 }
 
 text {
